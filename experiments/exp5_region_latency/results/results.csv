@@ -1,0 +1,4 @@
+region,url,requests,concurrency,timestamp,avg_latency_ms,min_latency_ms,max_latency_ms,requests_per_sec
+india,https://exp5-india-546481439801.asia-south1.run.app,100,5,2026-03-17T20:31:08.075985,118.3,62.0,1072.5,41.4311
+taiwan,https://exp5-taiwan-546481439801.asia-east1.run.app,100,5,2026-03-17T20:31:11.016651,141.6,109.7,676.4,34.1949
+us,https://exp5-us-546481439801.us-central1.run.app,100,5,2026-03-17T20:31:17.402087,313.0,278.6,830.0999999999999,15.6963
