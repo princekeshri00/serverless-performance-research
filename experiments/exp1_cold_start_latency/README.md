@@ -11,7 +11,7 @@ Serverless platforms dynamically create container instances. If no instance is r
 
 
 ## Experimental Setup
-|---------------|------------------|
+
 |   Parameter   |       Value      |
 |---------------|------------------|
 | Platform      | Google Cloud Run |
@@ -21,7 +21,7 @@ Serverless platforms dynamically create container instances. If no instance is r
 | Memory        | 512 MB           |
 | Min Instances | 0                |
 | Max Instances | 1                |
-|---------------|------------------|
+
 
 ---
 
@@ -102,12 +102,10 @@ It shows:
 
 Two patterns were observed:
 
-|----------------------|---------------------|
 |    Cold Start Type   | Approximate Latency |
 |----------------------|---------------------|
 | Warm-node cold start |   300–450 ms        |
 | Full cold start      |   800–1500 ms       |
-|----------------------|---------------------|
 
 
 👉 This suggests:
@@ -148,12 +146,11 @@ This experiment shows that cold start behavior in Google Cloud Run:
 
 
 Latency summary:
-|------|---------------|
+
 | Type | Typical Range |
 |------|---------------|
 | Warm |   ~300–350 ms |
 | Cold |  ~300–1500 ms |
-|------|---------------|
 
 
 ## Insight
