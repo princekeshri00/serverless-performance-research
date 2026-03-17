@@ -14,9 +14,9 @@ CSV_FILE = os.path.join(RESULTS_DIR, "results.csv")
 JSON_FILE = os.path.join(RESULTS_DIR, "results.json")
 
 REGIONS = {
-    "india": "https://exp5-india-546481439801.asia-south1.run.app",
-    "taiwan": "https://exp5-taiwan-546481439801.asia-east1.run.app",
-    "us": "https://exp5-us-546481439801.us-central1.run.app"
+    "india": "",
+    "taiwan": "",
+    "us": ""
 }
 
 REQUESTS = 100
