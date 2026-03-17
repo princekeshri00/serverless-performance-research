@@ -30,7 +30,7 @@ Requests are sent from a single client machine to each region, and performance m
 
 ### Region vs Average Latency
 
-![Latency Graph](experiments/exp5_region_latency/results/latency_vs_region.png)
+![Latency Graph](./results/latency_vs_region.png)
 
 **Observations:**
 - India region shows the lowest latency (~120 ms)
@@ -41,7 +41,7 @@ Requests are sent from a single client machine to each region, and performance m
 
 ### Region vs Throughput
 
-![Throughput Graph](experiments/exp5_region_latency/results/throughput_vs_region.png)
+![Throughput Graph](./results/throughput_vs_region.png)
 
 **Observations:**
 - Throughput is highest in India (~41 req/sec)
