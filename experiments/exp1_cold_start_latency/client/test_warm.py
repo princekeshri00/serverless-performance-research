@@ -3,7 +3,7 @@ import time
 import csv
 import os
 
-URL = "https://coldstart-exp1-546481439801.asia-south1.run.app"
+URL = ""
 file_path = "experiments/exp1_cold_start_latency/results/warm_results.csv"
 file_exists = os.path.isfile(file_path)
 

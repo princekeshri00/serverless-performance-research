@@ -4,7 +4,7 @@ import concurrent.futures
 import csv
 import os
 
-URL = "https://exp3-concurrency-546481439801.asia-south1.run.app"
+URL = ""
 RESULTS_PATH = "experiments/exp3_concurrency_latency/results/results.csv"
 
 def send_request():

@@ -8,9 +8,9 @@ time.sleep(120)
 print("Starting...\n\n\n")
 
 URLS = {
-    "small": "https://exp2-small-546481439801.us-central1.run.app",
-    "medium": "https://exp2-medium-546481439801.us-central1.run.app",
-    "large": "https://exp2-large-546481439801.us-central1.run.app"
+    "small": "",
+    "medium": "",
+    "large": ""
 }
 
 def test_service(name, url):
