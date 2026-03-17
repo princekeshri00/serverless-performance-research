@@ -46,7 +46,7 @@ Metrics recorded:
 
 ### 1. Error Rate vs Concurrency
 
-![Error Rate](./experiments/exp4_autoscaling_saturation/results/error_rate.png)
+![Error Rate](./results/error_rate.png)
 
 At low concurrency (10), the system shows a high error rate (~65%), indicating delayed autoscaling or insufficient initial instances.
 
@@ -58,7 +58,7 @@ At high concurrency (200), the error rate rises sharply (~30%), indicating syste
 
 ### 2. Latency vs Concurrency
 
-![Latency](./experiments/exp4_autoscaling_saturation/results/latency_vs_concurrency.png)
+![Latency](./results/latency_vs_concurrency.png)
 
 Latency is high at low concurrency due to cold starts and queueing delays.
 
@@ -72,7 +72,7 @@ P95 latency remains consistently high (~5–5.8s), highlighting tail latency iss
 
 ### 3. Throughput vs Concurrency (Experiment 4)
 
-![Throughput Exp4](./experiments/exp4_autoscaling_saturation/results/throughput.png)
+![Throughput Exp4](./results/throughput.png)
 
 Throughput increases steadily as concurrency rises, showing effective horizontal scaling.
 
@@ -84,7 +84,7 @@ However, growth slows and plateaus near ~160 req/s, indicating a hard system lim
 
 ### 🔵 Experiment 3 — Single Instance (No Autoscaling)
 
-![Throughput Exp3](./experiments/exp3_concurrency_latency/results/throughput.png)
+![Throughput Exp3](../exp3_concurrency_latency/results/throughput.png)
 
 - Throughput decreases as concurrency increases  
 - Caused by resource contention within a single instance  
@@ -94,7 +94,7 @@ However, growth slows and plateaus near ~160 req/s, indicating a hard system lim
 
 ### 🔴 Experiment 4 — Autoscaling Enabled
 
-![Throughput Exp4 Again](./experiments/exp4_autoscaling_saturation/results/throughput.png)
+![Throughput Exp4 Again](./results/throughput.png)
 
 - Throughput increases with concurrency initially  
 - Cloud Run scales horizontally by adding instances  
