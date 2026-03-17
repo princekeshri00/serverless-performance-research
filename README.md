@@ -30,6 +30,7 @@ All experiments are reproducible using Python-based clients and containerized se
     │   ├── exp4_autoscaling_saturation/
     │   ├── exp5_region_latency/
     │
+    ├── LICENSE
     ├── README.md
     └── research_paper.pdf
 
