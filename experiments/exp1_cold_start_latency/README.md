@@ -91,7 +91,7 @@ It shows:
 
 
 ### 2. Cold Start Latency Distribution
-![Cold Distribution](results/cold_latency_distribution.png)
+![Cold Distribution](results/cold_latency_distribution_overlay.png)
 
 
 #### Observations
@@ -101,12 +101,14 @@ It shows:
 
 
 Two patterns were observed:
+
 |----------------------|---------------------|
 |    Cold Start Type   | Approximate Latency |
 |----------------------|---------------------|
 | Warm-node cold start |   300–450 ms        |
 | Full cold start      |   800–1500 ms       |
 |----------------------|---------------------|
+
 
 👉 This suggests:
 > Most cold starts are fast due to infrastructure reuse, but occasional full cold starts increase latency significantly.
@@ -116,7 +118,7 @@ Two patterns were observed:
 
 
 ### 3. Warm Latency Distribution
-![Warm Distribution](results/warm_latency_distribution.png)
+![Warm Distribution](results/warm_latency_distribution_overlay.png)
 
 
 #### Observations
